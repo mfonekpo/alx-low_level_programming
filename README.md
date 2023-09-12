@@ -1,1 +1,1 @@
-This repo details introduction to C programming on Alx Software engineering program
+This repo details introduction to C programming on Alx Software engineering progra"
