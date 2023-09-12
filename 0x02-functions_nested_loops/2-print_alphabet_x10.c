@@ -1,18 +1,23 @@
 #include "main.h"
 
 /**
- * print_alphabet - Prints the alphabet in lowercase
+ * get_alphabet - print alphabet
  */
-void print_alphabet(void)
+void get_alphabet(void)
 {
-    char letter = 'a';
+	char i;
 
-    while (letter <= 'z')
-    {
-        _putchar(letter);
-        letter++;
-    }
-
-    _putchar('\n');
+	for (i = 'a'; i <= 'z'; i++)
+		_putchar(i);
+	_putchar('\n');
 }
+/**
+ * print_alphabet_x10 - print alphabet 10x
+ */
+void print_alphabet_x10(void)
+{
+	int i;
 
+	for (i = 0; i < 10; i++)
+		get_alphabet();
+}
